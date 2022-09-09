@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Progress Bar</title>
     <link rel="stylesheet" href="./progressBar.css">
+    <script src="/progressBar.js"></script>
 </head>
 <body>  
     <main>
         <h1 class="form-header">Progress Bar</h1>
-        <form class="form-class" action="#">
-            <input type="text" placeholder="Enter the number" class="form-input">
-        </form>
+        <div class="formIn">
+            <input id="user-input" type="text" placeholder="Enter the number" class="form-input">
+        </div>
         <div class="btn">
-            <button class="form-submit">Apply</button>
+            <button class="form-submit" onclick="whenClicked()">Apply</button>
+        </div>
+        <div class="bar">
+            <i class="progress-bar"></i>
         </div>
     </main>
 </body>
