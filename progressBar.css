@@ -54,12 +54,29 @@ div{
     justify-content: center;
 }
 #bar{
-    background-color: aqua;
+    background-color: white;
     width: 50%;
     height: 50px;
     margin-top: 10px;
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 15px;
-    align-items: center;
+    position: relative;
+    outline: auto;
+}
+
+#progress{
+    /* background-color: aqua; */
+    /* left: auto; */
+    display: block;
+    width: 0%;
+    height: 40px;
+    border-radius: inherit;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    overflow: hidden;
+    margin-right: auto;
+    position: relative;
+    transition: all 700ms linear;
 }
